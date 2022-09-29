@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2% 40%;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+body {
+
+    background-color: yellow;
+}
+
+.prog {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(83, 211, 83);
+    margin-top: 15px;
+}
+
+.one {
+    transition: .2s all;
+}
+
+.one:hover {
+    animation-name: oneAnim;
+    animation-duration: 1s;
+
+}
+
+.two {
+    transition: .2s all;
+}
+
+.two:hover {
+    animation-name: twoAnim;
+    animation-duration: 1s;
+
+}
+
+.three {
+    transition: .2s all;
+}
+
+.three:hover {
+    animation-name: threeAnim;
+    animation-duration: 1s;
+
+}
+
+.four {
+    transition: .2s all;
+}
+
+.four:hover {
+    animation-name: fourAnim;
+    animation-duration: 1s;
+
+}
+
+.five {
+    transition: .2s all;
+}
+
+.five:hover {
+    animation-name: fiveAnim;
+    animation-duration: 1s;
+
+}
+
+.six {
+    transition: .2s all;
+}
+
+.six:hover {
+    animation-name: sixAnim;
+    animation-duration: 1s;
+
+}
+
+.seven {
+    transition: .2s all;
+}
+
+.seven:hover {
+    animation-name: sevenAnim;
+    animation-duration: 1s;
+}
+
+a{
+    display: inline;
+}
+
+.btn{
+    width: 50%;
+    margin-left: 250px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+
+@keyframes oneAnim {
+    30% {
+        width: 50%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    100% {
+        width: 150%;
+    }
+}
+
+
+@keyframes twoAnim {
+    30% {
+        width: 50%;
+        height: 30vh;
+    }
+
+    60% {
+        width: 60%;
+        height: 30vh;
+    }
+
+    100% {
+        width: 150%;
+        height: 30vh;
+    }
+
+}
+
+
+@keyframes threeAnim {
+    30% {
+        width: 50%;
+
+    }
+
+    60% {
+        width: 60%;
+
+    }
+
+    100% {
+        width: 150%;
+
+    }
+
+}
+
+@keyframes fourAnim {
+    30% {
+        width: 50%;
+
+    }
+
+    60% {
+        width: 60%;
+
+    }
+
+    100% {
+        width: 150%;
+
+    }
+
+}
+
+@keyframes fiveAnim {
+    30% {}
+
+    60% {
+        width: 60%;
+
+    }
+
+    100% {
+        width: 100%;
+
+    }
+
+}
+
+@keyframes sixAnim {
+    30% {
+        width: 50%;
+
+    }
+
+    60% {
+        width: 60%;
+
+    }
+
+    100% {
+        width: 150%;
+
+    }
+
+}
+
+@keyframes sevenAnim {
+    30% {
+        width: 50%;
+
+    }
+
+    60% {
+        width: 60%;
+
+    }
+
+    100% {
+        width: 150%;
+
+    }
+
+}
